@@ -26,7 +26,7 @@ jobs:
         run: ./gradlew androidSourceJar
 
       - name: Publish to MavenCentral
-        run: ./gradlew :skeleton:publishReleasePublicationToSonatypeRepository --max-workers 1 :skeleton:closeAndReleaseSonatypeStagingRepository
+        run: ./gradlew :skeleton:publishReleasePublicationToSonatypeRepository --max-workers 1 :closeAndReleaseSonatypeStagingRepository
         env:
           OSSRH_USERNAME: ${{ secrets.OSSRH_USERNAME }}
           OSSRH_PASSWORD: ${{ secrets.OSSRH_PASSWORD }}
