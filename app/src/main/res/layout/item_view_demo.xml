@@ -22,6 +22,7 @@
         app:layout_constraintStart_toEndOf="@id/iv"
         app:layout_constraintTop_toTopOf="@id/iv"
         android:layout_marginStart="8dp"
+        android:textColor="@color/black"
         android:text="John Smith"/>
 
     <TextView
@@ -32,6 +33,7 @@
         app:layout_constraintTop_toBottomOf="@id/tv_title"
         app:layout_constraintStart_toStartOf="@id/tv_title"
         app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@color/black"
         android:text="Hellafasf asf asfdasfdaskfdlnaslkfnasdflknaslkdfnaslkndlasknf"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

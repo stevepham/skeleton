@@ -16,7 +16,7 @@ Update later
 Add the dependency below to your **module**'s `build.gradle` file:
 ```gradle
 dependencies {
-    implementation "update_link_later"
+    implementation "io.github.stevepham:skeleton:1.0.0"
 }
 ```
 
